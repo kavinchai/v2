@@ -1,0 +1,11 @@
+:root {
+  --background-color: #2f3335;
+  --primary-color: #81ecec;
+  --lightText-color: #ede8e8;
+}
+
+body {
+  margin: 0;
+  background: #212426;
+  overflow-x: hidden;
+}

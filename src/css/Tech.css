@@ -1,0 +1,65 @@
+.techComponent {
+  background: var(--background-color);
+
+  height: 40%;
+  width: 100vw;
+}
+
+.techContainer {
+  /* border: 5px solid #ffff00; */
+
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  height: 80%;
+  width: 50%;
+}
+
+.techText1 {
+  /* background-color: blue; */
+  width: 100%;
+
+  color: var(--primary-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.techText2 {
+  /* background-color: green; */
+  width: 100%;
+  height: auto;
+  color: white;
+  font-size: 15px;
+  text-align: right;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.techTable {
+  /* background-color: yellow; */
+  width: 100%;
+  height: 65%;
+  margin-top: 10px;
+}
+
+/* Each Image is 512 x 512 px */
+.techImg {
+  width: 40%;
+}
+
+.techImg6:hover {
+  animation: logoSpin infinite 5s linear;
+}
+
+@keyframes logoSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

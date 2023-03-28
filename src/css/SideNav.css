@@ -1,0 +1,77 @@
+.sideNavComponent {
+  /* background-color: red; */
+
+  position: absolute;
+  z-index: 2;
+  position: fixed;
+
+  height: 100vh;
+  width: 5%;
+  left: 0px;
+  background: rgb(47, 51, 53, 0.99);
+}
+
+.sideNavContainer {
+  /* background-color: yellow; */
+
+  height: 90%;
+  width: 50%;
+
+  left: 50%;
+  transform: translate(50%, 0%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  gap: 20px;
+}
+
+.iconType1 {
+  font-size: 30px;
+  fill: var(--lightText-color);
+}
+
+.iconType1:hover {
+  fill: var(--primary-color);
+  cursor: pointer;
+}
+
+.iconType2 {
+  font-size: 30px;
+  color: var(--lightText-color);
+  fill: transparent;
+}
+
+.iconType2:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.sideBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.Toastify__toast {
+  margin-top: 0px;
+  width: 83px;
+  --toastify-color-dark: #6b7479b3;
+  --toastify-toast-min-height: 20px;
+}
+
+.Toastify__toast-container {
+  margin-left: 30px;
+  height: 50px;
+}
+
+.Toastify__toast-body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: var(--primary-color);
+}

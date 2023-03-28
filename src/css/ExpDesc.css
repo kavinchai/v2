@@ -1,0 +1,87 @@
+.expDescComponent {
+  /* background-color: blue; */
+
+  height: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: 0;
+
+  position: relative;
+}
+
+.expDescHeader {
+  /* background-color: red; */
+
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.expDescHeaderSec1 {
+  /* background-color: green; */
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 10px;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.expDescTitle {
+  color: white;
+  font-size: 21px;
+}
+
+.expDescCompany {
+  color: var(--primary-color);
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 300ms;
+  font-size: 21px;
+  margin-left: auto;
+  padding-right: 1%;
+}
+
+.descCompany:hover {
+  text-decoration-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.expDescHeaderSec2 {
+  /* background-color: red; */
+
+  width: 100%;
+  display: flex;
+
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 14px;
+  font-style: italic;
+  display: flex;
+}
+
+.expDescLocation {
+  margin-left: auto;
+  padding-right: 1%;
+}
+
+.expDescBody {
+  /* background-color: yellow; */
+
+  width: 100%;
+  height: auto;
+}
+
+.expDescUnorderedList {
+  /* background-color: red; */
+
+  padding-left: 15px;
+}
+
+.expDescList {
+  font-family: "Poppins", sans-serif;
+  color: var(--lightText-color);
+
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
