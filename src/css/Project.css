@@ -54,4 +54,10 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+
+  transition: 0.3s;
+}
+
+.projectBody:hover > :not(:hover) {
+  opacity: 0.4;
 }

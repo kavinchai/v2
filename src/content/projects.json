@@ -16,7 +16,7 @@
       "title": "Back End Pokedéx",
       "desc": "A pokedex RESTful API that stores pokemon and trainer information in a relational database. Migrations are handled with liquibase and runs in a docker container. Users are authenticated with JWT.",
       "link": "https://github.com/kavinchai/pokedex_backend",
-      "tech": ["Kotlin", "Docker", "Spring", "Liquibase", "MariaDB"]
+      "tech": ["Kotlin", "Spring", "Liquibase", "MariaDB"]
     },
     {
       "title": "Smart Home Project",

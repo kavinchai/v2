@@ -16,7 +16,7 @@ const App = () => {
         <SideNav />
         <About />
         <Tech />
-        {/* <Exp /> */}
+        <Exp />
         <Project />
       </div>
     </>
