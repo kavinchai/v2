@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import "../css/Navbar.css";
+import {scrollTo} from "../helper";
 
 const Navbar = () => {
   const [myName, setMyName] = useState(true);
-  const scrollTo = (string) => {
-    const section = document.querySelector(string);
-    section.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
+
   return (
     <div className="navBarComponent">
       <div className="navBarContainer">

@@ -14,7 +14,7 @@
   text-decoration: none;
 }
 
-.projCardComponent::before {
+/* .projCardComponent::before {
   left: 20%;
   top: -30%;
 
@@ -42,25 +42,25 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .projHeader {
-  /* background-color: blue; */
+  background-color: blue;
 
   z-index: 1;
   margin: 5px 10px 0px 10px;
 }
 
 .projBody {
-  z-index: 1;
-  /* background-color: red; */
+  background-color: red;
 
+  z-index: 1;
   margin: 0px 10px 0px 10px;
 }
 
 .projFooter {
-  /* background-color: green; */
-  
+  background-color: green;
+
   z-index: 1;
   margin: 0px 10px 5px 10px;
 }
