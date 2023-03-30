@@ -1,11 +1,12 @@
 :root {
-  --background-color: #2f3335;
-  --primary-color: #81ecec;
-  --lightText-color: #ffffff;
+  --primary-background-color: #2f3335;
+  --primary-text-color: #81ecec;
+  --secondary-text-color: #ffffff;
+  --primary-font: "Poppins", sans-serif;
 }
 
 body {
   margin: 0;
-  background: #212426;
+  background: #121313;
   overflow-x: hidden;
 }

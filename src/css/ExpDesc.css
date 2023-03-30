@@ -1,6 +1,7 @@
 .expDescComponent {
   /* background-color: blue; */
-
+  background-color: var(--primary-background-color);
+  
   height: auto;
   width: 80%;
   margin-left: auto;
@@ -25,7 +26,7 @@
   display: flex;
   gap: 10px;
 
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
 }
 
 .expDescTitle {
@@ -34,7 +35,7 @@
 }
 
 .expDescCompany {
-  color: var(--primary-color);
+  color: var(--primary-text-color);
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 300ms;
   font-size: 21px;
@@ -43,7 +44,7 @@
 }
 
 .descCompany:hover {
-  text-decoration-color: var(--primary-color);
+  text-decoration-color: var(--primary-text-color);
   cursor: pointer;
 }
 
@@ -53,7 +54,7 @@
   width: 100%;
   display: flex;
 
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   color: white;
   font-size: 14px;
   font-style: italic;
@@ -79,8 +80,8 @@
 }
 
 .expDescList {
-  font-family: "Poppins", sans-serif;
-  color: var(--lightText-color);
+  font-family: var(--primary-font);
+  color: var(--secondary-text-color);
 
   padding-left: 10px;
   padding-bottom: 5px;

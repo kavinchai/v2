@@ -1,6 +1,5 @@
 .techComponent {
-  background: var(--background-color);
-
+  background: var(--primary-background-color);
   height: 40%;
   width: 100vw;
 }
@@ -21,8 +20,8 @@
   /* background-color: blue; */
   width: 100%;
 
-  color: var(--primary-color);
-  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
   font-size: 40px;
   font-weight: bold;
   text-align: right;
@@ -36,7 +35,7 @@
   font-size: 15px;
   text-align: right;
 
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
 }
 
 .techTable {

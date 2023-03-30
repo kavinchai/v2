@@ -1,5 +1,5 @@
 .navBarComponent {
-  /* background-color: red; */
+  background-color: var(--primary-background-color);
 
   height: 6%;
   width: 100vw;
@@ -7,8 +7,7 @@
   position: fixed;
   top: 0;
   z-index: 1;
-
-  background: rgb(47, 51, 53, 0.9);
+  opacity: 0.9;
 }
 
 .navBarContainer {
@@ -27,16 +26,16 @@
 }
 
 .firstName {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   font-size: 20px;
   color: white;
   /* margin-right: 10px; */
 }
 
 .lastName {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   font-size: 20px;
-  color: var(--primary-color);
+  color: var(--primary-text-color);
 }
 
 .navName:hover {
@@ -52,18 +51,18 @@
 }
 
 .navBtn {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   font-size: 20px;
-  color: var(--primary-color);
+  color: var(--primary-text-color);
 
   background-color: transparent;
   border: none;
-  color: var(--primary-color);
+  color: var(--primary-text-color);
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 300ms;
 }
 
 .navBtn:hover {
-  text-decoration-color: var(--primary-color);
+  text-decoration-color: var(--primary-text-color);
   cursor: pointer;
 }

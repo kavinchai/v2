@@ -1,13 +1,11 @@
 .projectComponent {
-  background: var(--background-color);
-
+  background-color: var(--primary-background-color);
   height: 100vh;
   width: 100vw;
 }
 
-.projectList {
+.projectContainer {
   border: 5px solid #ffff00;
-  background: var(--background-color);
 
   position: relative;
   top: 50%;
@@ -43,8 +41,8 @@
 }
 
 .projText1 {
-  color: var(--primary-color);
-  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
   font-size: 40px;
   font-weight: bold;
   text-align: right;
@@ -52,7 +50,7 @@
 
 .projText2 {
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   font-size: 15px;
   font-weight: bold;
   text-align: right;

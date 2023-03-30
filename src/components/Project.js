@@ -6,7 +6,7 @@ import projectsJson from "../content/projects.json";
 const Project = () => {
   return (
     <div className="projectComponent">
-      <div className="projectList">
+      <div className="projectContainer">
         <div className="projectHeader">
           <div className="projText1">projects</div>
           <div className="projText2">things i've made</div>

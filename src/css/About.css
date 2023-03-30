@@ -1,8 +1,8 @@
 .aboutComponent {
+  background-color: var(--primary-background-color);
   height: 100vh;
   width: 100vw;
-  background: var(--background-color);
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
 }
 
 .aboutContainer {
@@ -42,18 +42,18 @@
   /* background-color: green; */
   width: 100%;
   height: auto;
-  color: var(--primary-color);
+  color: var(--primary-text-color);
   font-size: 40px;
   font-weight: bold;
 }
 
 .aboutText2 {
   padding-top: 15px;
-  color: var(--lightText-color);
+  color: var(--secondary-text-color);
 }
 
 .aboutText3 {
-  color: var(--lightText-color);
+  color: var(--secondary-text-color);
 }
 
 .nameMark:hover {
@@ -63,15 +63,15 @@
 
 .highlight {
   background: transparent;
-  color: var(--primary-color);
+  color: var(--primary-text-color);
 }
 
 .aboutLink {
-  color: var(--primary-color);
+  color: var(--primary-text-color);
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 300ms;
 }
 .aboutLink:hover {
-  text-decoration-color: var(--primary-color);
+  text-decoration-color: var(--primary-text-color);
   cursor: pointer;
 }

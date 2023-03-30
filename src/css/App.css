@@ -3,11 +3,5 @@
 .appContainer {
   height: 100vh;
   width: 100vw;
-  background: var(--background-color);
-}
-
-.mobileContainer {
-  height: 100vh;
-  width: 100vw;
-  background: var(--background-color);
+  background: var(--primary-background-color);
 }
