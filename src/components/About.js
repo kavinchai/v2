@@ -20,8 +20,17 @@ const About = () => {
               >
                 {myName === true ? "Kavin Chaisawangwong" : "กวิน ฉายสว่างวงศ์"}
               </mark>
-              . I am a senior at Virginia Tech majoring in computer engineering
-              and economics. My interests include{" "}
+              . I recently graduated from Virginia Tech with a B.S. in Computer Engineering and a B.A. in Economics. 
+              I'm currently a software engineer at {" "} 
+              <a
+                href="https://www.wellsfargo.com/"
+                target="_blank"
+                className="aboutLink"
+                rel="noreferrer"
+              >
+                Wells Fargo
+              </a>
+              . My interests include{" "}
               <mark className="highlight">embedded systems</mark>,{" "}
               <mark className="highlight">web development</mark>, and{" "}
               <mark className="highlight">digital interfacing</mark>.

@@ -1,24 +1,21 @@
-import "../css/App.css";
 import React from "react";
 
 import Navbar from "./Navbar";
-import About from "./About";
-import Exp from "./Exp";
 import SideNav from "./SideNav";
-import Project from "./Project";
+import About from "./About";
 import Tech from "./Tech";
+import Exp from "./Exp";
+import Project from "./Project";
 
 const App = () => {
   return (
     <>
-      <div className="appContainer">
-        <Navbar />
-        <SideNav />
-        <About />
-        <Tech />
-        <Exp />
-        <Project />
-      </div>
+      <Navbar />
+      <SideNav />
+      <About />
+      <Tech />
+      <Exp />
+      <Project />
     </>
   );
 };

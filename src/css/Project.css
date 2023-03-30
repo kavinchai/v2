@@ -24,7 +24,8 @@
 }
 
 .projectBody {
-  background-color: blue;
+  /* background-color: blue; */
+
   left: 50%;
   transform: translate(-50%, 0%);
 
@@ -37,21 +38,20 @@
   flex-direction: row;
   justify-content: center;
 
-  transition: 1.3s;
 }
 
 .projText1 {
   color: var(--primary-text-color);
-  font-family: var(--primary-font);
-  font-size: 40px;
+  font-family: var(--heading-font);
+  font-size: var(--heading1);
   font-weight: bold;
   text-align: right;
 }
 
 .projText2 {
-  color: white;
-  font-family: var(--primary-font);
-  font-size: 15px;
+  color: var(--secondary-text-color);
+  font-family: var(--heading-font);
+  font-size: var(--heading2);
   font-weight: bold;
   text-align: right;
 }
