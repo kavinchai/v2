@@ -1,11 +1,11 @@
 .projectComponent {
-  background-color: var(--primary-background-color);
+  background-color: var(--primary-bg-color);
   height: 100vh;
   width: 100vw;
 }
 
 .projectContainer {
-  border: 5px solid #ffff00;
+  /* border: 5px solid #ffff00; */
 
   position: relative;
   top: 50%;
@@ -37,11 +37,10 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .projText1 {
-  color: var(--primary-text-color);
+  color: var(--primary-txt-color);
   font-family: var(--heading-font);
   font-size: var(--heading1);
   font-weight: bold;
@@ -49,7 +48,7 @@
 }
 
 .projText2 {
-  color: var(--secondary-text-color);
+  color: var(--secondary-txt-color);
   font-family: var(--heading-font);
   font-size: var(--heading2);
   font-weight: bold;

@@ -1,14 +1,14 @@
 .projCardComponent {
-  /* border: 3px solid var(--secondary-background-color); */
-  background-color: var(--secondary-background-color);
+  /* border: 3px solid var(--secondary-bg-color); */
+  background-color: var(--secondary-bg-color);
 
   height: 315px;
   width: 275px;
   margin: 10px;
-  
+
   border-radius: 20px;
   position: relative;
-  
+
   text-decoration: none;
 }
 
@@ -19,26 +19,26 @@
   right: 0;
   width: 0;
   height: 0;
-  border-top: 80px solid var(--primary-background-color);
-  border-left: 80px solid transparent;
+  border-top: 60px solid var(--primary-bg-color);
+  border-left: 60px solid transparent;
   animation: gradient 4s infinite alternate linear;
 }
 
 @keyframes gradient {
   0% {
-    border-top-color: #EE6055;
+    border-top-color: #ee6055;
   }
   25% {
-    border-top-color: #60D394;
+    border-top-color: #60d394;
   }
   50% {
-    border-top-color: #AAF683; 
+    border-top-color: #aaf683;
   }
   75% {
-    border-top-color: #FFD97D;
+    border-top-color: #ffd97d;
   }
   100% {
-    border-top-color: #FF9B85;
+    border-top-color: #ff9b85;
   }
 }
 .projHeader {
@@ -48,7 +48,7 @@
   padding: 0px 0px 5px 0px;
   height: 60px;
   display: flex;
-  position: relative; 
+  position: relative;
 }
 
 .projHeaderSect {
@@ -86,22 +86,22 @@
 
 .projTitle {
   align-self: center;
-  font-family: var(--normal-text-font);
+  font-family: var(--normal-font);
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
 
 .projDesc {
-  font-family: var(--normal-text-font);
+  font-family: var(--normal-font);
   font-size: 13px;
-  color: var(--secondary-text-color);
-  position: relative; 
-  top: 20px; 
+  color: var(--secondary-txt-color);
+  position: relative;
+  top: 20px;
 }
 
 .projTech {
-  font-family: var(--normal-text-font);
+  font-family: var(--normal-font);
   font-size: 12px;
   color: white;
   display: flex;
