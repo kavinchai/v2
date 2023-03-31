@@ -5,8 +5,7 @@
 }
 
 .projectContainer {
-  border: 5px solid #ffff00;
-
+  /* border: 5px solid #ffff00; */
   position: relative;
   top: 50%;
   right: 50%;
@@ -29,7 +28,7 @@
   left: 50%;
   transform: translate(-50%, 0%);
 
-  width: 90%;
+  /* width: auto; */
   height: auto;
   position: relative;
 
@@ -37,7 +36,6 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .projText1 {
@@ -56,6 +54,18 @@
   text-align: right;
 }
 
-.projectBody:hover > :not(:hover) {
-  opacity: 0.4;
+.projectBody:hover > * {
+  opacity: 0.3;
+}
+
+.projectBody {
+  pointer-events: none;
+}
+
+.projectBody > * {
+  pointer-events: auto;
+}
+
+.projectBody:hover > *:hover {
+  opacity: 1;
 }

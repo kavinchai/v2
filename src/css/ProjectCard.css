@@ -10,6 +10,7 @@
   position: relative;
   
   text-decoration: none;
+  transition: 0.2s;
 }
 
 .projCardComponent::before {
@@ -19,8 +20,8 @@
   right: 0;
   width: 0;
   height: 0;
-  border-top: 80px solid var(--primary-background-color);
-  border-left: 80px solid transparent;
+  border-top: 60px solid var(--primary-background-color);
+  border-left: 60px solid transparent;
   animation: gradient 4s infinite alternate linear;
 }
 
@@ -44,11 +45,28 @@
 .projHeader {
   /* background-color: blue; */
 
-  margin: 5px 10px 0px 10px;
+  margin: 10px 20px 0px 20px;
   padding: 0px 0px 5px 0px;
   height: 60px;
   display: flex;
   position: relative; 
+}
+
+.projBody {
+  /* background-color: red; */
+
+  z-index: 1;
+  margin: 0px 20px 0px 20px;
+  height: 210px;
+  display: flex;
+}
+
+.projFooter {
+  /* background-color: green; */
+
+  z-index: 1;
+  margin: 0px 20px 10px 20px;
+  display: flex;
 }
 
 .projHeaderSect {
@@ -57,26 +75,10 @@
   position: absolute;
 }
 
-.projBody {
-  /* background-color: red; */
-
-  z-index: 1;
-  margin: 0px 10px 0px 10px;
-  height: 220px;
-  display: flex;
-}
 
 .projBodySect {
   display: flex;
   justify-content: center;
-}
-
-.projFooter {
-  /* background-color: green; */
-
-  z-index: 1;
-  margin: 0px 10px 5px 10px;
-  display: flex;
 }
 
 .projFooterSect {
@@ -87,8 +89,8 @@
 .projTitle {
   align-self: center;
   font-family: var(--normal-text-font);
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 17px;
+  /* font-weight: bold; */
   color: white;
 }
 
