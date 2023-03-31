@@ -10,20 +10,24 @@ const ProjectCard = ({ proj: { title, desc, link, tech } }) => {
       rel="noreferrer"
     >
       <div className="projHeader">
-        <div className="projHeaderSection">
+        <div className="projHeaderSect">
           <div className="projTitle">{title}</div>
         </div>
       </div>
       <div className="projBody">
-        <div className="projDesc">{desc}</div>
+        <div className="projBodySect"> 
+          <div className="projDesc">{desc}</div>
+        </div>
       </div>
       <div className="projFooter">
-        <div className="projTech">
-          {tech.map((key, index) => (
-            <div key={index} className={`techUsed techUsed${index + 1}`}>
-              {key}
-            </div>
-          ))}
+        <div className="projFooterSect">
+          <div className="projTech">
+            {tech.map((key, index) => (
+              <div key={index} className="techUsed">
+                {key}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </a>
