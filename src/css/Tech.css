@@ -1,5 +1,5 @@
 .techComponent {
-  background: var(--primary-bg-color);
+  background: var(--dm-primary-bg-color);
   height: 40%;
   width: 100vw;
 }
@@ -20,7 +20,7 @@
   /* background-color: blue; */
   width: 100%;
 
-  color: var(--primary-txt-color);
+  color: var(--dm-secondary-txt-color);
   font-family: var(--heading-font);
   font-size: var(--heading1);
   font-weight: bold;
@@ -31,7 +31,7 @@
   /* background-color: green; */
   width: 100%;
   height: auto;
-  color: var(--secondary-txt-color);
+  color: var(--dm-primary-txt-color);
   font-size: var(--heading2);
   text-align: right;
 

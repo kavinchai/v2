@@ -1,8 +1,16 @@
 .aboutComponent {
-  background-color: var(--primary-bg-color);
   height: 100vh;
   width: 100vw;
   font-family: var(--heading-font);
+  transition: 0.5s;
+}
+
+.aboutDm {
+  background-color: var(--dm-primary-bg-color);
+}
+
+.aboutLm {
+  background-color: var(--lm-primary-bg-color);
 }
 
 .aboutContainer {
@@ -38,22 +46,28 @@
   height: 100%;
 }
 
-.aboutText1 {
+.aboutTxt1 {
   /* background-color: green; */
   width: 100%;
   height: auto;
-  color: var(--primary-txt-color);
   font-size: var(--heading1);
   font-weight: bold;
 }
 
-.aboutText2 {
-  padding-top: 15px;
-  color: var(--secondary-txt-color);
+.aboutTxtDm{
+  color: var(--dm-secondary-txt-color);
 }
 
-.aboutText3 {
-  color: var(--secondary-txt-color);
+.aboutTxtLm{
+  color: var(--lm-secondary-txt-color);
+}
+
+.aboutTxt2Dm {
+  color: var(--dm-primary-txt-color);
+}
+
+.aboutTxt2Lm {
+  color: var(--lm-primary-txt-color);
 }
 
 .nameMark:hover {
@@ -61,18 +75,38 @@
   user-select: none;
 }
 
-.highlight {
+.highlightDm {
   background: transparent;
-  color: var(--primary-txt-color);
+  color: var(--dm-secondary-txt-color);
+}
+
+.highlightLm {
+  background: transparent;
+  color: var(--lm-secondary-txt-color);
 }
 
 .aboutLink {
-  color: var(--primary-txt-color);
-  text-decoration: underline 0.15em var(--primary-bg-color);
   transition: text-decoration-color 300ms;
 }
 
 .aboutLink:hover {
-  text-decoration-color: var(--primary-txt-color);
   cursor: pointer;
+}
+
+.aboutLinkDm {
+  color: var(--dm-secondary-txt-color);
+  text-decoration: underline 0.15em var(--dm-primary-bg-color);
+}
+
+.aboutLinkDm:hover {
+  text-decoration-color: var(--dm-secondary-txt-color);
+}
+
+.aboutLinkLm {
+  color: var(--lm-secondary-txt-color);
+  text-decoration: underline 0.15em var(--lm-primary-bg-color);
+}
+
+.aboutLinkLm:hover {
+  text-decoration-color: var(--lm-secondary-txt-color);
 }

@@ -1,5 +1,5 @@
 .expComponent {
-  background-color: var(--primary-bg-color);
+  background-color: var(--dm-primary-bg-color);
   height: 100vh;
   width: 100vw;
 }
@@ -21,7 +21,7 @@
 
   width: 100%;
   height: auto;
-  color: var(--primary-txt-color);
+  color: var(--dm-secondary-txt-color);
   font-size: var(--heading1);
   font-weight: bold;
   font-family: var(--heading-font);
@@ -32,7 +32,7 @@
 
   width: 100%;
   height: auto;
-  color: var(--secondary-txt-color);
+  color: var(--dm-primary-txt-color);
   font-size: var(--heading2);
   font-family: var(--heading-font);
   padding-bottom: 20px;
@@ -61,7 +61,7 @@
 
   font-family: var(--normal-font);
   text-align: left;
-  color: var(--secondary-txt-color);
+  color: var(--dm-primary-txt-color);
 
   cursor: pointer;
   border: none;
@@ -72,7 +72,7 @@
 .expNavBtnActive {
   /* background-color: green; */
 
-  color: var(--primary-txt-color);
+  color: var(--dm-secondary-txt-color);
   background-color: rgb(185, 239, 239, 0.1);
-  border-right: 2px solid var(--primary-txt-color);
+  border-right: 2px solid var(--dm-secondary-txt-color);
 }

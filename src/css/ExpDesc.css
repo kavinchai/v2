@@ -1,6 +1,6 @@
 .expDescComponent {
   /* background-color: blue; */
-  background-color: var(--primary-bg-color);
+  background-color: var(--dm-primary-bg-color);
 
   height: auto;
   width: 80%;
@@ -35,8 +35,8 @@
 }
 
 .expDescCompany {
-  color: var(--primary-txt-color);
-  text-decoration: underline 0.15em var(--primary-bg-color);
+  color: var(--dm-secondary-txt-color);
+  text-decoration: underline 0.15em var(--dm-primary-bg-color);
   transition: text-decoration-color 300ms;
   font-size: 21px;
   margin-left: auto;
@@ -44,7 +44,7 @@
 }
 
 .expDescCompany:hover {
-  text-decoration-color: var(--primary-txt-color);
+  text-decoration-color: var(--dm-secondary-txt-color);
   cursor: pointer;
 }
 
@@ -81,7 +81,7 @@
 
 .expDescList {
   font-family: var(--normal-font);
-  color: var(--secondary-txt-color);
+  color: var(--dm-primary-txt-color);
 
   padding-left: 10px;
   padding-bottom: 5px;

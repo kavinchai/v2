@@ -1,5 +1,5 @@
 .projectComponent {
-  background-color: var(--primary-bg-color);
+  background-color: var(--dm-primary-bg-color);
   height: 100vh;
   width: 100vw;
 }
@@ -39,7 +39,7 @@
 }
 
 .projText1 {
-  color: var(--primary-txt-color);
+  color: var(--dm-secondary-txt-color);
   font-family: var(--heading-font);
   font-size: var(--heading1);
   font-weight: bold;
@@ -47,7 +47,7 @@
 }
 
 .projText2 {
-  color: var(--secondary-txt-color);
+  color: var(--dm-primary-txt-color);
   font-family: var(--heading-font);
   font-size: var(--heading2);
   font-weight: bold;

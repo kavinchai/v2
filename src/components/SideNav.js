@@ -3,7 +3,17 @@ import "../css/SideNav.css";
 import { RiGithubLine } from "react-icons/ri";
 import { FiLinkedin } from "react-icons/fi";
 
-const SideNav = () => {
+const SideNav = ({mode, setMode}) => {
+
+  const changemode = () => {
+    if (mode === "darkMode") {
+      setMode("lightMode");
+    }
+    else {
+      setMode("darkMode");
+    }
+  }
+
   return (
     <div className="sideNavComponent">
       <div className="sideNavContainer">
@@ -17,6 +27,10 @@ const SideNav = () => {
         >
           <FiLinkedin className="iconType2 icon" />
         </a>
+        <label class="switch">
+          <input type="checkbox" onClick={changemode}/>
+          <span class="slider round"></span>
+        </label>
       </div>
     </div>
   );

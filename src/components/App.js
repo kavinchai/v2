@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 import Navbar from "./Navbar";
 import SideNav from "./SideNav";
@@ -8,11 +8,13 @@ import Exp from "./Exp";
 import Project from "./Project";
 
 const App = () => {
+  const [mode, setMode] = useState("darkMode");
+
   return (
     <>
       <Navbar />
-      <SideNav />
-      <About />
+      <SideNav mode={mode} setMode={setMode}/>
+      <About mode={mode}/>
       <Tech />
       <Exp />
       <Project />
