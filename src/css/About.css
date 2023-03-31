@@ -1,5 +1,5 @@
 .aboutComponent {
-  background-color: var(--primary-background-color);
+  background-color: var(--primary-bg-color);
   height: 100vh;
   width: 100vw;
   font-family: var(--heading-font);
@@ -42,18 +42,18 @@
   /* background-color: green; */
   width: 100%;
   height: auto;
-  color: var(--primary-text-color);
+  color: var(--primary-txt-color);
   font-size: var(--heading1);
   font-weight: bold;
 }
 
 .aboutText2 {
   padding-top: 15px;
-  color: var(--secondary-text-color);
+  color: var(--secondary-txt-color);
 }
 
 .aboutText3 {
-  color: var(--secondary-text-color);
+  color: var(--secondary-txt-color);
 }
 
 .nameMark:hover {
@@ -63,16 +63,16 @@
 
 .highlight {
   background: transparent;
-  color: var(--primary-text-color);
+  color: var(--primary-txt-color);
 }
 
 .aboutLink {
-  color: var(--primary-text-color);
-  text-decoration: underline 0.15em var(--primary-background-color);
+  color: var(--primary-txt-color);
+  text-decoration: underline 0.15em var(--primary-bg-color);
   transition: text-decoration-color 300ms;
 }
 
 .aboutLink:hover {
-  text-decoration-color: var(--primary-text-color);
+  text-decoration-color: var(--primary-txt-color);
   cursor: pointer;
 }

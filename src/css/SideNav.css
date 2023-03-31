@@ -1,6 +1,6 @@
 .sideNavComponent {
   /* background-color: red; */
-  background-color: var(--primary-background-color);
+  background-color: var(--primary-bg-color);
 
   position: absolute;
   z-index: 2;
@@ -29,22 +29,22 @@
 
 .iconType1 {
   font-size: 30px;
-  fill: var(--secondary-text-color);
+  fill: var(--secondary-txt-color);
 }
 
 .iconType1:hover {
-  fill: var(--primary-text-color);
+  fill: var(--primary-txt-color);
   cursor: pointer;
 }
 
 .iconType2 {
   font-size: 30px;
-  color: var(--secondary-text-color);
+  color: var(--secondary-txt-color);
   fill: transparent;
 }
 
 .iconType2:hover {
-  color: var(--primary-text-color);
+  color: var(--primary-txt-color);
   cursor: pointer;
 }
 
