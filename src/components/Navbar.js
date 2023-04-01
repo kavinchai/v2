@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "../css/Navbar.css";
 import {scrollTo} from "../helper";
 
-const Navbar = () => {
+const Navbar = ({mode}) => {
   const [myName, setMyName] = useState(true);
 
   return (
-    <div className="navBarComponent">
+    <div className={mode === "darkMode" ? "navBarComponent navBarComponentDm" : "navBarComponent navBarComponentLm"}>
       <div className="navBarContainer">
         <div
           className="firstName navName"

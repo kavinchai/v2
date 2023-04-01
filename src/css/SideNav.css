@@ -1,6 +1,5 @@
 .sideNavComponent {
   /* background-color: red; */
-  background-color: var(--dm-primary-bg-color);
 
   position: absolute;
   z-index: 2;
@@ -9,6 +8,16 @@
   height: 100vh;
   width: 5%;
   left: 0px;
+  transition: 0.5s;
+
+}
+
+.sideNavComponentDm {
+  background-color: var(--dm-primary-bg-color);
+}
+
+.sideNavComponentLm {
+  background-color: var(--lm-tertiary-bg-color);
 }
 
 .sideNavContainer {

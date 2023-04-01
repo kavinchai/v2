@@ -12,12 +12,12 @@ const App = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar mode={mode}/>
       <SideNav mode={mode} setMode={setMode}/>
       <About mode={mode}/>
       <Tech mode={mode}/>
       <Exp mode={mode}/>
-      <Project />
+      <Project mode={mode}/>
     </>
   );
 };

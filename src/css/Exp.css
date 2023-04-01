@@ -1,6 +1,7 @@
 .expComponent {
   height: 100vh;
   width: 100vw;
+  transition: 0.5s;
 }
 
 .expComponentDm{

@@ -1,6 +1,5 @@
 .projCardComponent {
   /* border: 3px solid var(--secondary-bg-color); */
-  background-color: var(--dm-secondary-bg-color);
 
   height: 315px;
   width: 275px;
@@ -13,6 +12,14 @@
   transition: 0.2s;
 }
 
+.projCardComponentDm {
+  background-color: var(--dm-secondary-bg-color);
+}
+
+.projCardComponentLm {
+  background-color: var(--lm-tertiary-bg-color);
+}
+
 .projCardComponent::before {
   content: "";
   position: absolute;
@@ -20,12 +27,20 @@
   right: 0;
   width: 0;
   height: 0;
-  border-top: 60px solid var(--dm-primary-bg-color);
   border-left: 60px solid transparent;
-  animation: gradient 4s infinite alternate linear;
 }
 
-@keyframes gradient {
+.projCardComponentDm::before {
+  border-top: 60px solid var(--dm-primary-bg-color);
+  animation: gradientDm 4s infinite alternate linear;
+}
+
+.projCardComponentLm::before {
+  border-top: 60px solid var(--lm-primary-bg-color);
+  animation: gradientLm 4s infinite alternate linear;
+}
+
+@keyframes gradientDm {
   0% {
     border-top-color: #ee6055;
   }
@@ -42,6 +57,25 @@
     border-top-color: #ff9b85;
   }
 }
+
+@keyframes gradientLm {
+  0% {
+    border-top-color: #e93d31;
+  }
+  25% {
+    border-top-color: #2fce77;
+  }
+  50% {
+    border-top-color: #7ef543;
+  }
+  75% {
+    border-top-color: #fdbf2f;
+  }
+  100% {
+    border-top-color: #f86241;
+  }
+}
+
 .projHeader {
   /* background-color: blue; */
 

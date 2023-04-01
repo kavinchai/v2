@@ -1,15 +1,20 @@
 .navBarComponent {
-  background-color: var(--dm-primary-bg-color);
-
   height: 6%;
   width: 100vw;
 
   position: fixed;
   top: 0;
   z-index: 1;
-  opacity: 0.9;
+  transition: 0.5s;
 }
 
+.navBarComponentDm {
+  background-color: var(--dm-primary-bg-color);
+}
+
+.navBarComponentLm {
+  background-color: var(--lm-tertiary-bg-color);
+}
 .navBarContainer {
   /* background-color: blue; */
 

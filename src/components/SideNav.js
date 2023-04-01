@@ -15,7 +15,7 @@ const SideNav = ({mode, setMode}) => {
   }
 
   return (
-    <div className="sideNavComponent">
+    <div className={mode === "darkMode" ? "sideNavComponent sideNavComponentDm" : "sideNavComponent sideNavComponentLm"}>
       <div className="sideNavContainer">
         <a href="https://github.com/kavinchai" target="_blank" rel="noreferrer">
           <RiGithubLine className="iconType1 icon" />

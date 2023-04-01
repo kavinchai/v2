@@ -1,7 +1,15 @@
 .projectComponent {
-  background-color: var(--dm-primary-bg-color);
   height: 100vh;
   width: 100vw;
+  transition: 0.5s;
+}
+
+.projectComponentDm {
+  background-color: var(--dm-primary-bg-color);
+}
+
+.projectComponentLm {
+  background-color: var(--lm-primary-bg-color);
 }
 
 .projectContainer {
@@ -38,20 +46,34 @@
   justify-content: center;
 }
 
-.projText1 {
-  color: var(--dm-secondary-txt-color);
+.projTxt1 {
   font-family: var(--heading-font);
   font-size: var(--heading1);
   font-weight: bold;
   text-align: right;
 }
 
-.projText2 {
-  color: var(--dm-primary-txt-color);
+.projTxt1Dm {
+  color: var(--dm-secondary-txt-color);
+}
+
+.projTxt1Lm {
+  color: var(--lm-secondary-txt-color);
+}
+
+.projTxt2 {
   font-family: var(--heading-font);
   font-size: var(--heading2);
   font-weight: bold;
   text-align: right;
+}
+
+.projTxt2Dm {
+  color: var(--dm-primary-txt-color);
+}
+
+.projTxt2Lm {
+  color: var(--lm-primary-txt-color);
 }
 
 .projectBody:hover > * {
