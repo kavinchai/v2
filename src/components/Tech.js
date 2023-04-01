@@ -2,12 +2,12 @@ import React from "react";
 import "../css/Tech.css";
 
 import IMAGES from "../constants";
-const Tech = () => {
+const Tech = ({mode}) => {
   return (
-    <div className="techComponent">
+    <div className={mode === "darkMode" ? "techComponent techComponentDm" : "techComponent techComponentLm"}>
       <div className="techContainer">
-        <div className="techText1">technologies</div>
-        <div className="techText2">tools i've used</div>
+        <div className={mode === "darkMode" ? "techTxt1 techTxt1Dm" : "techTxt1 techTxt1Lm"}>technologies</div>
+        <div className={mode === "darkMode" ? "techTxt2 techTxt2Dm" : "techTxt2 techTxt2Lm"}>tools i've used</div>
         <table className="techTable">
           <tr>
             <th className="techR1C1">

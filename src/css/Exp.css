@@ -1,7 +1,14 @@
 .expComponent {
-  background-color: var(--dm-primary-bg-color);
   height: 100vh;
   width: 100vw;
+}
+
+.expComponentDm{
+  background-color: var(--dm-primary-bg-color);
+}
+
+.expComponentLm{
+  background-color: var(--lm-primary-bg-color);
 }
 
 .expContainer {
@@ -16,26 +23,40 @@
   width: 50%;
 }
 
-.expHeaderText1 {
+.expHeaderTxt1 {
   /* background-color: blue; */
 
   width: 100%;
   height: auto;
-  color: var(--dm-secondary-txt-color);
   font-size: var(--heading1);
   font-weight: bold;
   font-family: var(--heading-font);
 }
 
-.expHeaderText2 {
+.expHeaderTxt1Dm {
+  color: var(--dm-secondary-txt-color);
+}
+
+.expHeaderTxt1Lm {
+  color: var(--lm-secondary-txt-color);
+}
+
+.expHeaderTxt2 {
   /* background-color: green; */
 
   width: 100%;
   height: auto;
-  color: var(--dm-primary-txt-color);
   font-size: var(--heading2);
   font-family: var(--heading-font);
   padding-bottom: 20px;
+}
+
+.expHeaderTxt2Dm {
+  color: var(--dm-primary-txt-color);
+}
+
+.expHeaderTxt2Lm {
+  color: var(--lm-primary-txt-color);
 }
 
 .expBody {
@@ -53,7 +74,7 @@
   width: 15%;
 }
 
-.expNavBtn {
+.expNavBtnDm {
   background-color: transparent;
 
   width: 100%;
@@ -69,10 +90,34 @@
   border-right: 2px solid rgb(185, 239, 239, 0.1);
 }
 
-.expNavBtnActive {
+.expNavBtnActiveDm {
   /* background-color: green; */
 
   color: var(--dm-secondary-txt-color);
   background-color: rgb(185, 239, 239, 0.1);
   border-right: 2px solid var(--dm-secondary-txt-color);
+}
+
+.expNavBtnLm {
+  background-color: transparent;
+
+  width: 100%;
+  height: 15%;
+
+  font-family: var(--normal-font);
+  text-align: left;
+  color: var(--lm-primary-txt-color);
+
+  cursor: pointer;
+  border: none;
+
+  border-right: 2px solid rgba(10, 139, 139, 0.1);
+}
+
+.expNavBtnActiveLm {
+  /* background-color: green; */
+
+  color: var(--lm-secondary-txt-color);
+  background-color: rgba(8, 131, 131, 0.1);
+  border-right: 2px solid var(--lm-secondary-txt-color);
 }

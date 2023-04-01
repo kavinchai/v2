@@ -3,7 +3,7 @@ import "../css/Exp.css";
 import jobsJson from "../content/jobs.json";
 import ExpDesc from "./ExpDesc";
 
-const Exp = () => {
+const Exp = ({mode}) => {
   const [dispNum, setDispNum] = useState(1);
   const [data, setData] = useState({});
 
@@ -12,10 +12,10 @@ const Exp = () => {
   }, [dispNum]);
 
   return (
-    <div className="expComponent">
+    <div className={mode === "darkMode" ? "expComponent expComponentDm" : "expComponent expComponentLm"}>
       <div className="expContainer">
-        <div className="expHeaderText1">experience</div>
-        <div className="expHeaderText2">places i've worked</div>
+        <div className={mode === "darkMode" ? "expHeaderTxt1 expHeaderTxt1Dm" : "expHeaderTxt1 expHeaderTxt1Lm"}>experience</div>
+        <div className={mode === "darkMode" ? "expHeaderTxt2 expHeaderTxt2Dm" : "expHeaderTxt2 expHeaderTxt2Lm"}>places i've worked</div>
         <div className="expBody">
           <div className="expNavContainer">
             {jobsJson.data.map((expInfo, index) => (
@@ -23,8 +23,8 @@ const Exp = () => {
                 key={`${index} ${dispNum}`}
                 className={
                   dispNum === index + 1
-                    ? `expNavBtn expNavBtnActive`
-                    : `expNavBtn`
+                    ? mode === "darkMode" ? "expNavBtnDm expNavBtnActiveDm" : "expNavBtnLm expNavBtnActiveLm"
+                    : mode === "darkMode" ? "expNavBtnDm" : "expNavBtnLm"
                 }
                 onClick={() => {
                   setDispNum(index + 1);
@@ -34,7 +34,7 @@ const Exp = () => {
               </button>
             ))}
           </div>
-          <ExpDesc data={data} />
+          <ExpDesc data={data} mode={mode}/>
         </div>
       </div>
     </div>

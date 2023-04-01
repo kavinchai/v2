@@ -15,8 +15,8 @@ const App = () => {
       <Navbar />
       <SideNav mode={mode} setMode={setMode}/>
       <About mode={mode}/>
-      <Tech />
-      <Exp />
+      <Tech mode={mode}/>
+      <Exp mode={mode}/>
       <Project />
     </>
   );

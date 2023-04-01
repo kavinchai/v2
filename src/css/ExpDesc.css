@@ -1,6 +1,5 @@
 .expDescComponent {
   /* background-color: blue; */
-  background-color: var(--dm-primary-bg-color);
 
   height: auto;
   width: 80%;
@@ -8,6 +7,14 @@
   margin-right: 0;
 
   position: relative;
+}
+
+.expDescComponentDm {
+  background-color: var(--dm-primary-bg-color);
+}
+
+.expDescComponentLm {
+  background-color: var(--lm-primary-bg-color);
 }
 
 .expDescHeader {
@@ -30,13 +37,18 @@
 }
 
 .expDescTitle {
-  color: white;
   font-size: 21px;
 }
 
+.expDescTitleDm {
+  color: var(--dm-primary-txt-color);
+}
+
+.expDescTitleLm {
+  color: var(--lm-primary-txt-color);
+}
+
 .expDescCompany {
-  color: var(--dm-secondary-txt-color);
-  text-decoration: underline 0.15em var(--dm-primary-bg-color);
   transition: text-decoration-color 300ms;
   font-size: 21px;
   margin-left: auto;
@@ -44,8 +56,25 @@
 }
 
 .expDescCompany:hover {
-  text-decoration-color: var(--dm-secondary-txt-color);
   cursor: pointer;
+}
+
+.expDescCompanyDm {
+  color: var(--dm-secondary-txt-color);
+  text-decoration: underline 0.15em var(--dm-primary-bg-color);
+}
+
+.expDescCompanyDm:hover {
+  text-decoration-color: var(--dm-secondary-txt-color);
+}
+
+.expDescCompanyLm {
+  color: var(--lm-secondary-txt-color);
+  text-decoration: underline 0.15em var(--lm-primary-bg-color);
+}
+
+.expDescCompanyLm:hover {
+  text-decoration-color: var(--lm-secondary-txt-color);
 }
 
 .expDescHeaderSec2 {
@@ -55,10 +84,17 @@
   display: flex;
 
   font-family: var(--normal-font);
-  color: white;
   font-size: 14px;
   font-style: italic;
   display: flex;
+}
+
+.expDescHeaderSec2Dm {
+  color: var(--dm-primary-txt-color);
+}
+
+.expDescHeaderSec2Lm {
+  color: var(--lm-primary-txt-color);
 }
 
 .expDescLocation {
@@ -81,8 +117,15 @@
 
 .expDescList {
   font-family: var(--normal-font);
-  color: var(--dm-primary-txt-color);
 
   padding-left: 10px;
   padding-bottom: 5px;
+}
+
+.expDescListDm {
+  color: var(--dm-primary-txt-color);
+}
+
+.expDescListLm {
+  color: var(--lm-primary-txt-color);
 }
