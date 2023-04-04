@@ -63,8 +63,7 @@
 
 .projTxt2 {
   font-family: var(--heading-font);
-  font-size: var(--heading2);
-  font-weight: bold;
+  font-size: var(--heading2); 
   text-align: right;
 }
 

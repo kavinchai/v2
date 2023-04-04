@@ -8,7 +8,7 @@ import Exp from "./Exp";
 import Project from "./Project";
 
 const App = () => {
-  const [mode, setMode] = useState("darkMode");
+  const [mode, setMode] = useState("lightMode");
 
   return (
     <>

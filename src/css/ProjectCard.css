@@ -17,7 +17,7 @@
 }
 
 .projCardComponentLm {
-  background-color: var(--lm-tertiary-bg-color);
+  background-color: var(--lm-quaternary-bg-color);
 }
 
 .projCardComponent::before {
@@ -60,19 +60,19 @@
 
 @keyframes gradientLm {
   0% {
-    border-top-color: #e93d31;
+    border-top-color: #a5b4b0;
   }
   25% {
-    border-top-color: #2fce77;
+    border-top-color: #87a89b;
   }
   50% {
-    border-top-color: #7ef543;
+    border-top-color: #c3ffec;
   }
   75% {
-    border-top-color: #fdbf2f;
+    border-top-color: #76b3bf;
   }
   100% {
-    border-top-color: #f86241;
+    border-top-color: #d2ffd8;
   }
 }
 
