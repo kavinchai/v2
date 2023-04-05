@@ -10,13 +10,6 @@
 
   text-decoration: none;
   transition: 0.2s;
-}
-
-.projCardComponentDm {
-  background-color: var(--dm-secondary-bg-color);
-}
-
-.projCardComponentLm {
   background-color: var(--lm-quaternary-bg-color);
 }
 
@@ -28,14 +21,6 @@
   width: 0;
   height: 0;
   border-left: 60px solid transparent;
-}
-
-.projCardComponentDm::before {
-  border-top: 60px solid var(--dm-primary-bg-color);
-  animation: gradientDm 4s infinite alternate linear;
-}
-
-.projCardComponentLm::before {
   border-top: 60px solid var(--lm-primary-bg-color);
   animation: gradientLm 4s infinite alternate linear;
 }

@@ -6,15 +6,9 @@
   top: 0;
   z-index: 1;
   transition: 0.5s;
-}
-
-.navBarComponentDm {
-  background-color: var(--dm-primary-bg-color);
-}
-
-.navBarComponentLm {
   background-color: var(--lm-tertiary-bg-color);
 }
+
 .navBarContainer {
   /* background-color: blue; */
 

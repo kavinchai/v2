@@ -2,20 +2,19 @@ import React, { useState } from "react";
 import "../css/About.css";
 import imag from "../imgs/kavinCropped.png";
 
-const About = ({mode}) => {
+const About = () => {
   const [myName, setMyName] = useState(true);
 
   return (
-    <div className={mode === "darkMode" ? "aboutComponent aboutDm" : "aboutComponent aboutLm"}>
+    <div className="aboutComponent">
       <div className="aboutContainer">
         <div className="aboutText">
-          <div className={mode === "darkMode" ? "aboutTxt1 aboutTxtDm" : "aboutTxt1 aboutTxtLm"}>about me</div>
-          <div className={mode === "darkMode" ? "aboutTxt2Dm" : "aboutTxt2Lm"}>
+          <div className="aboutTxt1">about me</div>
+          <div className="aboutTxt2">
             <p>
               Hi! My name is{" "}
               <mark
-                className=
-                {mode === "darkMode" ? "highlightDm nameMark" : "highlightLm nameMark"}
+                className="highlight nameMark"
                 onClick={() => setMyName((prev) => !prev)}
               >
                 {myName === true ? "Kavin Chaisawangwong" : "กวิน ฉายสว่างวงศ์"}
@@ -25,15 +24,15 @@ const About = ({mode}) => {
               <a
                 href="https://www.wellsfargo.com/"
                 target="_blank"
-                className={mode === "darkMode" ? "aboutLink aboutLinkDm" : "aboutLink aboutLinkLm"}
+                className="aboutLink"
                 rel="noreferrer"
               >
                 Wells Fargo
               </a>
               . My interests include{" "}
-              <mark className={mode === "darkMode" ? "highlightDm" : "highlightLm"}>embedded systems</mark>,{" "}
-              <mark className={mode === "darkMode" ? "highlightDm" : "highlightLm"}>web development</mark>, and{" "}
-              <mark className={mode === "darkMode" ? "highlightDm" : "highlightLm"}>digital interfacing</mark>.
+              <mark className="highlight">embedded systems</mark>,{" "}
+              <mark className="highlight">web development</mark>, and{" "}
+              <mark className="highlight">digital interfacing</mark>.
             </p>
             <p>
               I enjoy experimenting with new technologies and exploring ways to
@@ -42,7 +41,7 @@ const About = ({mode}) => {
               <a
                 href="https://github.com/kavinchai/NASA_AM_App"
                 target="_blank"
-                className={mode === "darkMode" ? "aboutLink aboutLinkDm" : "aboutLink aboutLinkLm"}
+                className="aboutLink"
                 rel="noreferrer"
               >
                 NASA Additive Manufacturing Application
@@ -51,7 +50,7 @@ const About = ({mode}) => {
               <a
                 href="https://github.com/kavinchai/pokedex_frontend"
                 target="_blank"
-                className={mode === "darkMode" ? "aboutLink aboutLinkDm" : "aboutLink aboutLinkLm"}
+                className="aboutLink"
                 rel="noreferrer"
               >
                 front-end
@@ -60,7 +59,7 @@ const About = ({mode}) => {
               <a
                 href="https://github.com/kavinchai/pokedex_backend"
                 target="_blank"
-                className={mode === "darkMode" ? "aboutLink aboutLinkDm" : "aboutLink aboutLinkLm"}
+                className="aboutLink"
                 rel="noreferrer"
               >
                 back-end

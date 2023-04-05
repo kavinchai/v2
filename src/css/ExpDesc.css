@@ -8,13 +8,6 @@
 
   position: relative;
   transition: 0.5s;
-}
-
-.expDescComponentDm {
-  background-color: var(--dm-primary-bg-color);
-}
-
-.expDescComponentLm {
   background-color: var(--lm-primary-bg-color);
 }
 
@@ -39,13 +32,6 @@
 
 .expDescTitle {
   font-size: 21px;
-}
-
-.expDescTitleDm {
-  color: var(--dm-primary-txt-color);
-}
-
-.expDescTitleLm {
   color: var(--lm-primary-txt-color);
 }
 
@@ -54,27 +40,12 @@
   font-size: 21px;
   margin-left: auto;
   padding-right: 1%;
-}
-
-.expDescCompany:hover {
-  cursor: pointer;
-}
-
-.expDescCompanyDm {
-  color: var(--dm-secondary-txt-color);
-  text-decoration: underline 0.15em var(--dm-primary-bg-color);
-}
-
-.expDescCompanyDm:hover {
-  text-decoration-color: var(--dm-secondary-txt-color);
-}
-
-.expDescCompanyLm {
   color: var(--lm-secondary-txt-color);
   text-decoration: underline 0.15em var(--lm-primary-bg-color);
 }
 
-.expDescCompanyLm:hover {
+.expDescCompany:hover {
+  cursor: pointer;
   text-decoration-color: var(--lm-secondary-txt-color);
 }
 
@@ -88,13 +59,6 @@
   font-size: 14px;
   font-style: italic;
   display: flex;
-}
-
-.expDescHeaderSec2Dm {
-  color: var(--dm-primary-txt-color);
-}
-
-.expDescHeaderSec2Lm {
   color: var(--lm-primary-txt-color);
 }
 
@@ -121,12 +85,6 @@
 
   padding-left: 10px;
   padding-bottom: 5px;
-}
 
-.expDescListDm {
-  color: var(--dm-primary-txt-color);
-}
-
-.expDescListLm {
   color: var(--lm-primary-txt-color);
 }

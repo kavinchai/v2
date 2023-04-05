@@ -2,22 +2,21 @@ import React from "react";
 import "../css/ExpDesc.css";
 
 const ExpDesc = ({
-  data: { title, company, location, duration, url, text },
-  mode
+  data: { title, company, location, duration, url, text }
 }) => {
   return (
-    <div className={mode === "darkMode" ? "expDescComponent expDescComponentDm" : "expDescComponent expDescComponentLm"}>
+    <div className="expDescComponent">
       <div className="expDescHeader">
         <div className="expDescHeaderSec1">
-          <div className={mode === "darkMode" ? "expDescTitle expDescTitleDm" : "expDescTitle expDescTitleLm"}>{title}</div>
+          <div className="expDescTitle">{title}</div>
           <a
             href={url}
             target="_blank"
             rel="noreferrer"
-            className={mode === "darkMode" ? "expDescCompany expDescCompanyDm" : "expDescCompany expDescCompanyLm"}
+            className="expDescCompany"
           >{`${company}`}</a>
         </div>
-        <div className={mode === "darkMode" ? "expDescHeaderSec2 expDescHeaderSec2Dm" : "expDescHeaderSec2 expDescHeaderSec2Lm"}>
+        <div className="expDescHeaderSec2">
           <div className="expDescDuration">{duration}</div>
           <div className="expDescLocation">{location}</div>
         </div>
@@ -25,7 +24,7 @@ const ExpDesc = ({
       <div className="expDescBody">
         <ul className="expDescUnorderedList">
           {text?.map((key) => (
-            <li key={key} className={mode === "darkMode" ? "expDescList expDescListDm" : "expDescList expDescListLm"}>
+            <li key={key} className="expDescList">
               {key}
             </li>
           ))}

@@ -3,13 +3,6 @@
   width: 100vw;
   font-family: var(--heading-font);
   transition: 0.5s;
-}
-
-.aboutDm {
-  background-color: var(--dm-primary-bg-color);
-}
-
-.aboutLm {
   background-color: var(--lm-primary-bg-color);
 }
 
@@ -52,21 +45,10 @@
   height: auto;
   font-size: var(--heading1);
   font-weight: bold;
-}
-
-.aboutTxtDm{
-  color: var(--dm-secondary-txt-color);
-}
-
-.aboutTxtLm{
   color: var(--lm-secondary-txt-color);
 }
 
-.aboutTxt2Dm {
-  color: var(--dm-primary-txt-color);
-}
-
-.aboutTxt2Lm {
+.aboutTxt2 {
   color: var(--lm-primary-txt-color);
 }
 
@@ -75,38 +57,18 @@
   user-select: none;
 }
 
-.highlightDm {
-  background: transparent;
-  color: var(--dm-secondary-txt-color);
-}
-
-.highlightLm {
+.highlight {
   background: transparent;
   color: var(--lm-secondary-txt-color);
 }
 
 .aboutLink {
+  color: var(--lm-secondary-txt-color);
+  text-decoration: underline 0.15em var(--lm-primary-bg-color);
   transition: text-decoration-color 300ms;
 }
 
 .aboutLink:hover {
   cursor: pointer;
-}
-
-.aboutLinkDm {
-  color: var(--dm-secondary-txt-color);
-  text-decoration: underline 0.15em var(--dm-primary-bg-color);
-}
-
-.aboutLinkDm:hover {
-  text-decoration-color: var(--dm-secondary-txt-color);
-}
-
-.aboutLinkLm {
-  color: var(--lm-secondary-txt-color);
-  text-decoration: underline 0.15em var(--lm-primary-bg-color);
-}
-
-.aboutLinkLm:hover {
   text-decoration-color: var(--lm-secondary-txt-color);
 }

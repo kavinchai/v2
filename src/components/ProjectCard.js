@@ -1,10 +1,10 @@
 import React from "react";
 import "../css/ProjectCard.css";
 
-const ProjectCard = ({ proj: { title, desc, link, tech }, mode }) => {
+const ProjectCard = ({ proj: { title, desc, link, tech } }) => {
   return (
     <a
-      className={mode === "darkMode" ? "projCardComponent projCardComponentDm" : "projCardComponent projCardComponentLm"}
+      className="projCardComponent"
       href={link}
       target="_blank"
       rel="noreferrer"
