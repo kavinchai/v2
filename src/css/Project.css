@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100vw;
   transition: 0.5s;
-  background-color: var(--lm-primary-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .projectContainer {
@@ -44,14 +44,14 @@
   font-size: var(--heading1);
   font-weight: bold;
   text-align: right;
-  color: var(--lm-secondary-txt-color);
+  color: var(--secondary-txt-color);
 }
 
 .projTxt2 {
   font-family: var(--heading-font);
   font-size: var(--heading2); 
   text-align: right;
-  color: var(--lm-primary-txt-color);
+  color: var(--primary-txt-color);
 }
 
 .projectBody:hover > * {

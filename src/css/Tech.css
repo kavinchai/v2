@@ -2,7 +2,7 @@
   height: 40%;
   width: 100vw;
   transition: 0.5s;
-  background: var(--lm-primary-bg-color);
+  background: var(--primary-bg-color);
 }
 
 .techContainer {
@@ -26,7 +26,7 @@
   font-size: var(--heading1);
   font-weight: bold;
   text-align: right;
-  color: var(--lm-secondary-txt-color);
+  color: var(--secondary-txt-color);
 }
 
 .techTxt2 {
@@ -37,7 +37,7 @@
   text-align: right;
 
   font-family: var(--heading-font);
-  color: var(--lm-primary-txt-color);
+  color: var(--primary-txt-color);
 }
 
 .techTable {

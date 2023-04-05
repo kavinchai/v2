@@ -10,7 +10,7 @@
 
   text-decoration: none;
   transition: 0.2s;
-  background-color: var(--lm-quaternary-bg-color);
+  background-color: var(--quaternary-bg-color);
 }
 
 .projCardComponent::before {
@@ -21,7 +21,7 @@
   width: 0;
   height: 0;
   border-left: 60px solid transparent;
-  border-top: 60px solid var(--lm-primary-bg-color);
+  border-top: 60px solid var(--primary-bg-color);
   animation: gradientLm 4s infinite alternate linear;
 }
 
@@ -110,13 +110,13 @@
   font-family: var(--normal-font);
   font-size: 17px;
   /* font-weight: bold; */
-  color: white;
+  color: var(--quaternary-txt-color);
 }
 
 .projDesc {
   font-family: var(--normal-font);
   font-size: 13px;
-  color: var(--dm-primary-txt-color);
+  color: var(--quaternary-txt-color);
   position: relative;
   top: 20px;
 }
@@ -124,7 +124,7 @@
 .projTech {
   font-family: var(--normal-font);
   font-size: 12px;
-  color: white;
+  color: var(--quaternary-txt-color);
   display: flex;
   gap: 12px;
 }

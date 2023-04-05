@@ -2,7 +2,7 @@ import React from "react";
 import "../css/Tech.css";
 
 import IMAGES from "../constants";
-const Tech = ({mode}) => {
+const Tech = () => {
   return (
     <div className="techComponent">
       <div className="techContainer">

@@ -8,7 +8,7 @@
 
   position: relative;
   transition: 0.5s;
-  background-color: var(--lm-primary-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .expDescHeader {
@@ -32,7 +32,7 @@
 
 .expDescTitle {
   font-size: 21px;
-  color: var(--lm-primary-txt-color);
+  color: var(--primary-txt-color);
 }
 
 .expDescCompany {
@@ -40,13 +40,13 @@
   font-size: 21px;
   margin-left: auto;
   padding-right: 1%;
-  color: var(--lm-secondary-txt-color);
-  text-decoration: underline 0.15em var(--lm-primary-bg-color);
+  color: var(--secondary-txt-color);
+  text-decoration: underline 0.15em var(--primary-bg-color);
 }
 
 .expDescCompany:hover {
   cursor: pointer;
-  text-decoration-color: var(--lm-secondary-txt-color);
+  text-decoration-color: var(--secondary-txt-color);
 }
 
 .expDescHeaderSec2 {
@@ -59,7 +59,7 @@
   font-size: 14px;
   font-style: italic;
   display: flex;
-  color: var(--lm-primary-txt-color);
+  color: var(--primary-txt-color);
 }
 
 .expDescLocation {
@@ -86,5 +86,5 @@
   padding-left: 10px;
   padding-bottom: 5px;
 
-  color: var(--lm-primary-txt-color);
+  color: var(--primary-txt-color);
 }

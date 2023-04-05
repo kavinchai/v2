@@ -1,20 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
 :root {
-  --dm-primary-bg-color: #2f3335;
-  --dm-secondary-bg-color: #686f72;
+  --primary-bg-color: #c8f0f3;
+  --secondary-bg-color: #535758;
+  --tertiary-bg-color: #299292;
+  --quaternary-bg-color: #76b3bf;
 
-  --dm-primary-txt-color: #ffffff;
-  --dm-secondary-txt-color: #81ecec;
-
-  --lm-primary-bg-color: #c8f0f3;
-  --lm-secondary-bg-color: #535758;
-  --lm-tertiary-bg-color: #299292;
-  --lm-quaternary-bg-color: #76b3bf;
-
-  --lm-primary-txt-color: #6cb6c5;
-  --lm-secondary-txt-color: #167979;
-  --lm-tertiary-txt-color: #0d4b4b;
+  --primary-txt-color: #6cb6c5;
+  --secondary-txt-color: #167979;
+  --tertiary-txt-color: #0d4b4b;
+  --quaternary-txt-color: #ffffff;
 
   --heading-font: "Poppins", sans-serif;
   --normal-font: "Poppins", sans-serif;

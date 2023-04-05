@@ -6,7 +6,7 @@
   top: 0;
   z-index: 1;
   transition: 0.5s;
-  background-color: var(--lm-tertiary-bg-color);
+  background-color: var(--tertiary-bg-color);
 }
 
 .navBarContainer {
@@ -34,7 +34,7 @@
 .lastName {
   font-family: var(--heading-font);
   font-size: 20px;
-  color: var(--dm-secondary-txt-color);
+  color: var(--secondary-txt-color);
 }
 
 .navName:hover {
@@ -52,11 +52,10 @@
 .navBtn {
   font-family: var(--heading-font);
   font-size: 20px;
-  color: var(--dm-secondary-txt-color);
 
   background-color: transparent;
   border: none;
-  color: var(--dm-secondary-txt-color);
+  color: var(--quaternary-txt-color);
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 300ms;
 }

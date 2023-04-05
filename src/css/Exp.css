@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100vw;
   transition: 0.5s;
-  background-color: var(--lm-primary-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .expContainer {
@@ -25,7 +25,7 @@
   font-size: var(--heading1);
   font-weight: bold;
   font-family: var(--heading-font);
-  color: var(--lm-secondary-txt-color);
+  color: var(--secondary-txt-color);
 }
 
 .expHeaderTxt2 {
@@ -36,7 +36,7 @@
   font-size: var(--heading2);
   font-family: var(--heading-font);
   padding-bottom: 20px;
-  color: var(--lm-primary-txt-color);
+  color: var(--primary-txt-color);
 }
 
 .expBody {
@@ -62,7 +62,7 @@
 
   font-family: var(--normal-font);
   text-align: left;
-  color: var(--lm-primary-txt-color);
+  color: var(--primary-txt-color);
 
   cursor: pointer;
   border: none;
@@ -73,7 +73,7 @@
 .expNavBtnActive {
   /* background-color: green; */
 
-  color: var(--lm-secondary-txt-color);
+  color: var(--secondary-txt-color);
   background-color: rgba(8, 131, 131, 0.1);
-  border-right: 2px solid var(--lm-secondary-txt-color);
+  border-right: 2px solid var(--secondary-txt-color);
 }

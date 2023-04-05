@@ -3,7 +3,7 @@
   width: 100vw;
   font-family: var(--heading-font);
   transition: 0.5s;
-  background-color: var(--lm-primary-bg-color);
+  background-color: var(--primary-bg-color);
 }
 
 .aboutContainer {
@@ -45,11 +45,11 @@
   height: auto;
   font-size: var(--heading1);
   font-weight: bold;
-  color: var(--lm-secondary-txt-color);
+  color: var(--secondary-txt-color);
 }
 
 .aboutTxt2 {
-  color: var(--lm-primary-txt-color);
+  color: var(--primary-txt-color);
 }
 
 .nameMark:hover {
@@ -59,16 +59,16 @@
 
 .highlight {
   background: transparent;
-  color: var(--lm-secondary-txt-color);
+  color: var(--secondary-txt-color);
 }
 
 .aboutLink {
-  color: var(--lm-secondary-txt-color);
-  text-decoration: underline 0.15em var(--lm-primary-bg-color);
+  color: var(--secondary-txt-color);
+  text-decoration: underline 0.15em var(--primary-bg-color);
   transition: text-decoration-color 300ms;
 }
 
 .aboutLink:hover {
   cursor: pointer;
-  text-decoration-color: var(--lm-secondary-txt-color);
+  text-decoration-color: var(--secondary-txt-color);
 }
