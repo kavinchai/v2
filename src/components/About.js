@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/About.css";
-import imag from "../imgs/kavinCropped.png";
+// import imag from "../imgs/kavinCropped.png";
+import imag from "../imgs/kavin.JPG";
 import { RiGithubFill } from "react-icons/ri";
 import { FiLinkedin } from "react-icons/fi";
 import { RiYoutubeFill } from "react-icons/ri";
@@ -117,9 +118,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="aboutImgContainer">
-          {/* <img src={imag} className="aboutImg" alt="kavinImg" /> */}
-        </div>
+        <img src={imag} className="aboutImgContainer aboutImg" alt="kavinImg" />
       </div>
     </div>
   );

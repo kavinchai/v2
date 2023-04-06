@@ -26,15 +26,19 @@
 }
 
 .aboutImgContainer {
-  background-color: blue;
-  height: 100%;
+  /* background-color: blue; */
+  height: auto;
   width: 40%;
   display: flex;
+  object-fit: cover; 
+  object-position: 60% 0%;
+  border: 20px solid var(--quaternary-bg-color);
 }
 
 .aboutImg {
-  background-color: red;
-  height: 100%;
+  /* background-color: red; */
+  /* height: 100%; */
+
 }
 
 .aboutTxt1 {
@@ -109,6 +113,28 @@
 .socialCircle:hover {
   cursor: pointer;
   scale: 1.1;
+}
+
+.socialCircle:hover > * {
+  animation: hover-animation 4s infinite alternate linear;
+}
+
+@keyframes hover-animation {
+  0% {
+    color: #ee6055;
+  }
+  25% {
+    color: #60d394;
+  }
+  50% {
+    color: #aaf683;
+  }
+  75% {
+    color: #ffd97d;
+  }
+  100% {
+    color: #ff9b85;
+  }
 }
 
 .highlight {
