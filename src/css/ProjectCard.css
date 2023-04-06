@@ -16,16 +16,16 @@
 .projCardComponent::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: -0.2px;
   right: 0;
   width: 0;
   height: 0;
   border-left: 60px solid transparent;
   border-top: 60px solid var(--primary-bg-color);
-  animation: gradientLm 4s infinite alternate linear;
+  animation: gradient 4s infinite alternate linear;
 }
 
-@keyframes gradientDm {
+@keyframes gradient {
   0% {
     border-top-color: #ee6055;
   }
@@ -40,24 +40,6 @@
   }
   100% {
     border-top-color: #ff9b85;
-  }
-}
-
-@keyframes gradientLm {
-  0% {
-    border-top-color: #a5b4b0;
-  }
-  25% {
-    border-top-color: #87a89b;
-  }
-  50% {
-    border-top-color: #c3ffec;
-  }
-  75% {
-    border-top-color: #76b3bf;
-  }
-  100% {
-    border-top-color: #d2ffd8;
   }
 }
 
