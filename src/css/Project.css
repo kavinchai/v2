@@ -9,8 +9,8 @@
   /* border: 5px solid #ffff00; */
   position: relative;
   top: 50%;
-  right: 50%;
-  transform: translate(60%, -45%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   padding: 10px;
   height: auto;
   width: 90vw;
@@ -51,7 +51,7 @@
   font-family: var(--heading-font);
   font-size: var(--heading2); 
   text-align: right;
-  color: var(--primary-txt-color);
+  color: var(--secondary-txt-color);
 }
 
 .projectBody:hover > * {

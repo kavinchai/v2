@@ -25,16 +25,29 @@
 }
 
 .firstName {
-  font-family: var(--heading-font);
   font-size: 20px;
   color: white;
-  /* margin-right: 10px; */
+}
+
+.firstNameEng {
+  font-family: var(--heading-font);
+}
+
+.firstNameTh {
+  font-family: var(--thai-font);
 }
 
 .lastName {
-  font-family: var(--heading-font);
   font-size: 20px;
   color: var(--secondary-txt-color);
+}
+
+.lastNameEng {
+  font-family: var(--heading-font);
+}
+
+.lastNameTh {
+  font-family: var(--thai-font);
 }
 
 .navName:hover {

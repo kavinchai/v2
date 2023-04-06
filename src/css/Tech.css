@@ -9,9 +9,9 @@
   /* border: 5px solid #ffff00; */
 
   position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, 0%);
+  left: 0;
+  top: 0;
+  transform: translate(50%, 0);
   padding: 10px;
   height: 80%;
   width: 50%;
@@ -37,7 +37,7 @@
   text-align: right;
 
   font-family: var(--heading-font);
-  color: var(--primary-txt-color);
+  color: var(--secondary-txt-color);
 }
 
 .techTable {

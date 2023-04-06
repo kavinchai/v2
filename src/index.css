@@ -1,25 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&display=swap');
 :root {
-  --primary-bg-color: #c8f0f3;
-  --secondary-bg-color: #535758;
-  --tertiary-bg-color: #299292;
-  --quaternary-bg-color: #76b3bf;
+  --primary-bg-color: #aad4f3;
+  --secondary-bg-color: #86b9df;
+  --tertiary-bg-color: #89b2d1;
+  --quaternary-bg-color: #175d8d;
+  --quinary-bg-color: #104265;
 
-  --primary-txt-color: #6cb6c5;
-  --secondary-txt-color: #167979;
-  --tertiary-txt-color: #0d4b4b;
+  --primary-txt-color: #89b2d1;
+  --secondary-txt-color: #175d8d;
+  --tertiary-txt-color: #104265;
   --quaternary-txt-color: #ffffff;
 
   --heading-font: "Poppins", sans-serif;
-  --normal-font: "Poppins", sans-serif;
+  --normal-font: 'Gothic A1', sans-serif;
+  --thai-font: 'Prompt', sans-serif;
 
   --heading1: 40px;
-  --heading2: 15px;
+  --heading2: 17px;
 }
 
 body {
   margin: 0;
-  background: var(--dm-primary-bg-color);
+  background: var(--primary-bg-color);
   overflow-x: hidden;
 }

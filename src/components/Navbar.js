@@ -9,13 +9,13 @@ const Navbar = () => {
     <div className="navBarComponent">
       <div className="navBarContainer">
         <div
-          className="firstName navName"
+          className={myName === true ? "firstName firstNameEng navName" : "firstName firstNameTh navName"}
           onClick={() => setMyName((prev) => !prev)}
         >
           {myName === true ? "kavin" : "กวิน"}
         </div>
         <div
-          className="lastName navName"
+          className={myName === true ? "lastName lastNameEng navName" : "lastName lastNameTh navName"}
           onClick={() => setMyName((prev) => !prev)}
         >
           {myName === true ? "chai" : "ฉาย"}
