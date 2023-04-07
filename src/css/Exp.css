@@ -4,22 +4,12 @@
   transition: 0.5s;
   background-color: var(--primary-bg-color);
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.expContainer {
-  /* border: 5px solid #ffff00; */
-
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-  height: 55%;
-  width: 50%;
-  min-width: 800px;
-}
-
-.expHeaderTxt1 {
+.expHeaderTxtHeader {
   /* background-color: blue; */
 
   width: 100%;
@@ -30,7 +20,7 @@
   color: var(--secondary-txt-color);
 }
 
-.expHeaderTxt2 {
+.expHeaderTxtSubtitle {
   /* background-color: green; */
 
   width: 100%;
@@ -41,42 +31,113 @@
   color: var(--secondary-txt-color);
 }
 
-.expBody {
-  /* background-color: red; */
-
-  width: 100%;
-  height: 75%;
-  display: flex;
+/* Desktop Resolution */
+@media screen and (min-width: 1024px) {
+  .expContainer {
+    /* border: 5px solid #ffff00; */
+  
+    position: relative;
+    padding: 10px;
+    height: 55%;
+    width: 50%;
+    min-width: 800px;
+  }
+  
+  .expBody {
+    /* background-color: red; */
+  
+    width: 100%;
+    height: 75%;
+    display: flex;
+  }
+  
+  .expNavContainer {
+    /* background-color: green; */
+  
+    height: 100%;
+    width: 15%;
+  }
+  
+  .expNavBtn {
+    background-color: transparent;
+  
+    width: 100%;
+    height: 15%;
+  
+    font-family: var(--normal-font);
+    font-size: 16px;
+    text-align: left;
+    color: var(--secondary-txt-color);
+  
+    cursor: pointer;
+    border: none;
+  
+    border-right: 2px solid rgba(10, 139, 139, 0.1);
+  }
+  
+  .expNavBtnActive {
+    /* background-color: green; */
+  
+    color: var(--secondary-txt-color);
+    background-color: rgba(8, 131, 131, 0.1);
+    border-right: 2px solid var(--secondary-txt-color);
+  }  
 }
 
-.expNavContainer {
-  /* background-color: green; */
-
-  height: 100%;
-  width: 15%;
-}
-
-.expNavBtn {
-  background-color: transparent;
-
-  width: 100%;
-  height: 15%;
-
-  font-family: var(--normal-font);
-  font-size: 16px;
-  text-align: left;
-  color: var(--secondary-txt-color);
-
-  cursor: pointer;
-  border: none;
-
-  border-right: 2px solid rgba(10, 139, 139, 0.1);
-}
-
-.expNavBtnActive {
-  /* background-color: green; */
-
-  color: var(--secondary-txt-color);
-  background-color: rgba(8, 131, 131, 0.1);
-  border-right: 2px solid var(--secondary-txt-color);
+/* For Tablet Resolution */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .expContainer {
+    /* border: 5px solid #ffff00; */
+  
+    position: relative;
+    padding: 10px;
+    height: 70vh;
+    width: 90vw;
+  }
+  
+  .expBody {
+    /* background-color: red; */
+  
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex: column;
+    flex-direction: column;
+  }
+  
+  .expNavContainer {
+    /* background-color: green; */
+    display: flex;
+    height: 15%;
+    width: 100%;
+    padding-bottom: 6%;
+  }
+  
+  .expNavBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  
+    width: 20%;
+    height: 80%;
+  
+    font-family: var(--normal-font);
+    font-size: 16px;
+    text-align: left;
+    color: var(--secondary-txt-color);
+  
+    cursor: pointer;
+    border: none;
+  
+    border-bottom: 2px solid rgba(10, 139, 139, 0.1);
+  }
+  
+  .expNavBtnActive {
+    /* background-color: green; */
+  
+    color: var(--secondary-txt-color);
+    background-color: rgba(8, 131, 131, 0.1);
+    border-bottom: 2px solid var(--secondary-txt-color);
+  }  
 }
