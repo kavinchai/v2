@@ -1,3 +1,9 @@
+@media (max-width: 1024px) {
+  .navBarComponent {
+    display: none;
+  }
+}
+
 .navBarComponent {
   height: 6%;
   width: 100vw;

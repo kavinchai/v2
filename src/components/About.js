@@ -28,11 +28,13 @@ const About = () => {
   return (
     <div className="aboutComponent">
       <div className="aboutContainer">
-        <div className="aboutText">
-          <div className={myName === true ? "aboutTxt1 aboutTxtEng" : "aboutTxt1 aboutTxtTh"}
+        <div className="aboutTxtSection">
+          <div className={myName === true ? "aboutTxtHeader aboutTxtEng" : "aboutTxtHeader aboutTxtTh"}
           onClick={() => setMyName((prev) => !prev)}
-          >{myName === true ? "Kavin Chaisawangwong" : "กวิน ฉายสว่างวงศ์"}</div>
-          <div className="aboutTxt2">            
+          >
+            {myName === true ? "Kavin Chaisawangwong" : "กวิน ฉายสว่างวงศ์"}
+          </div>
+          <div className="aboutTxtBody">            
             <p>
               I recently graduated from Virginia Tech with a B.S. in Computer Engineering and a B.A. in Economics. 
               I'm currently a software engineer at {" "} 
@@ -83,7 +85,7 @@ const About = () => {
             </p>
           </div>
           <div className="socialSection">
-            <div className="socialIcons">
+            <div className="socialSubsection">
             <a 
               href="https://github.com/kavinchai" 
               target="_blank" 
