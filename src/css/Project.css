@@ -5,6 +5,7 @@
   background-color: var(--primary-bg-color);
   position: relative;
   display: flex;
+  justify-content: center;
 }
 
 .projectContainer {
