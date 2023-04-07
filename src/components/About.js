@@ -110,7 +110,7 @@ const About = () => {
             </a>
             <button
               onClick={handleClick}
-              className="socialCircle"
+              className="socialCircle popBtn"
             >
               <MdOutlineEmail className="icon" />
             </button>
@@ -118,7 +118,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <img src={imag} className="aboutImgContainer aboutImg" alt="kavinImg" />
+        <img src={imag} className="aboutImg" alt="kavinImg" />
       </div>
     </div>
   );

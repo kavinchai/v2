@@ -1,9 +1,9 @@
 .aboutComponent {
   height: 100vh;
   width: 100vw;
-  /* font-family: var(--heading-font); */
   transition: 0.5s;
   background-color: var(--primary-bg-color);
+  position: relative;
 }
 
 .aboutContainer {
@@ -16,6 +16,7 @@
   height: 70%;
   width: 70%;
 
+  min-width: 900px;
   display: flex;
 }
 
@@ -23,9 +24,11 @@
   background-color: var(--tertiary-bg-color);
   height: 100%;
   width: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
-.aboutImgContainer {
+.aboutImg {
   /* background-color: blue; */
   height: auto;
   width: 40%;
@@ -35,20 +38,15 @@
   border: 20px solid var(--quaternary-bg-color);
 }
 
-.aboutImg {
-  /* background-color: red; */
-  /* height: 100%; */
-
-}
-
 .aboutTxt1 {
+  /* background-color: green; */
   height: 10%;
   width: 100%;
   display: flex;
 
   padding: 20px;
   font-weight: bold;
-  font-size: 280%;
+  font-size: calc(18px + 1.8vw);
   color: var(--secondary-txt-color);
 }
 
@@ -71,29 +69,28 @@
   display: flex;
   flex-direction: column;
   padding: 0px 20px 20px 20px;
-  height: 50%;
+  /* height: 50%; */
 
-  font-size: 23px;
+  /* font-size: 23px; */
+  font-size: 125%;
   font-family: var(--normal-font);
   color: var(--secondary-txt-color);
 }
 
 .socialSection {
-  display: flex;
-
   width: 100%;
-  height: 20%;
+  height: stretch;
 
   /* background-color: yellow; */
-
   display: flex;
   align-items: center;
+  /* align-self: flex-end;   */
 }
 
 .socialIcons {
+  /* background-color: red; */
   display: flex;
   justify-content: center;
-  /* background-color: red; */
   width: 100%;
   gap: 5%;
 }
@@ -104,8 +101,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   border-radius: 400px;
   text-decoration: none;
 }
@@ -153,7 +150,7 @@
 }
 
 .icon {
-  font-size: 40px;
+  font-size:calc(15px + 1.5vw);
   color: white;
 }
 
@@ -163,12 +160,15 @@
   }
 }
 
+.popBtn {
+  position: relative;
+}
+
 .popup {
   position: absolute;
   z-index: 1;
   top: calc(100% - 250px);
-  left: calc(45% - 5px);
-  transform: translateX(-50%);
+  left: calc(50% - 130px);
   padding: 8px;
   background-color: var(--quaternary-bg-color);
   color: #fff;
