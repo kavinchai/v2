@@ -1,80 +1,80 @@
-.expDescHeader {
-  /* background-color: red; */
-
-  width: 100%;
-  height: auto;
-  margin-bottom: 15px;
-}
-
-.expDescHeaderSec1 {
-  /* background-color: green; */
-
-  width: 100%;
-  height: auto;
-  display: flex;
-  gap: 10px;
-
-  font-family: var(--normal-font);
-}
-
-.expDescTitle {
-  font-size: 21px;
-  color: var(--secondary-txt-color);
-}
-
-.expDescCompany {
-  transition: text-decoration-color 300ms;
-  font-size: 21px;
-  margin-left: auto;
-  padding-right: 1%;
-  color: var(--secondary-txt-color);
-  text-decoration: underline 0.15em var(--primary-bg-color);
-}
-
-.expDescCompany:hover {
-  cursor: pointer;
-  text-decoration-color: var(--secondary-txt-color);
-}
-
-.expDescHeaderSec2 {
-  /* background-color: red; */
-
-  width: 100%;
-  display: flex;
-
-  font-family: var(--normal-font);
-  font-size: 14px;
-  font-style: italic;
-  display: flex;
-  color: var(--secondary-txt-color);
-}
-
-.expDescLocation {
-  margin-left: auto;
-  padding-right: 1%;
-}
-
-.expDescBody {
-  /* background-color: yellow; */
-  font-size: 18px;
-  width: 100%;
-  height: auto;
-}
-
-.expDescUnorderedList {
-  /* background-color: red; */
-
-  padding-left: 15px;
-}
-
-.expDescList {
-  font-family: var(--normal-font);
-
-  padding-left: 10px;
-  padding-bottom: 5px;
-
-  color: var(--secondary-txt-color);
-}
+  .expDescHeader {
+    /* background-color: red; */
+  
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .expDescHeaderSec1 {
+    /* background-color: green; */
+  
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+  
+    font-family: var(--normal-font);
+  }
+  
+  .expDescTitle {
+    font-size: 21px;
+    color: var(--secondary-txt-color);
+  }
+  
+  .expDescCompany {
+    transition: text-decoration-color 300ms;
+    font-size: 21px;
+    margin-left: auto;
+    padding-right: 1%;
+    color: var(--secondary-txt-color);
+    text-decoration: underline 0.15em var(--primary-bg-color);
+  }
+  
+  .expDescCompany:hover {
+    cursor: pointer;
+    text-decoration-color: var(--secondary-txt-color);
+  }
+  
+  .expDescHeaderSec2 {
+    /* background-color: red; */
+  
+    width: 100%;
+    display: flex;
+  
+    font-family: var(--normal-font);
+    font-size: 14px;
+    font-style: italic;
+    display: flex;
+    color: var(--secondary-txt-color);
+  }
+  
+  .expDescLocation {
+    margin-left: auto;
+    padding-right: 1%;
+  }
+  
+  .expDescBody {
+    /* background-color: yellow; */
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .expDescUnorderedList {
+    /* background-color: red; */
+  
+    padding-left: 15px;
+  }
+  
+  .expDescList {
+    font-family: var(--normal-font);
+  
+    padding-left: 10px;
+    padding-bottom: 5px;
+  
+    color: var(--secondary-txt-color);
+  }
 
 /* Desktop Resolution */
 @media screen and (min-width: 1024px) { 
