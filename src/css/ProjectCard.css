@@ -1,7 +1,7 @@
 .projCardComponent {
   /* border: 3px solid var(--secondary-bg-color); */
 
-  height: 315px;
+  height: 300px;
   width: 275px;
   margin: 10px;
 
@@ -11,6 +11,8 @@
   text-decoration: none;
   transition: 0.2s;
   background-color: var(--quaternary-bg-color);
+  display: flex;
+  flex-direction: column;
 }
 
 .projCardComponent::before {
@@ -47,8 +49,8 @@
   /* background-color: blue; */
 
   margin: 10px 20px 0px 20px;
-  padding: 0px 0px 5px 0px;
-  height: 60px;
+  /* padding: 0px 0px 5px 0px; */
+  height: 17%;
   display: flex;
   position: relative;
 }
@@ -58,13 +60,13 @@
 
   z-index: 1;
   margin: 0px 20px 0px 20px;
-  height: 210px;
+  height: 70%;
   display: flex;
 }
 
 .projFooter {
   /* background-color: green; */
-
+  /* height: stretch; */
   z-index: 1;
   margin: 0px 20px 10px 20px;
   display: flex;
@@ -75,7 +77,6 @@
   justify-content: center;
   position: absolute;
 }
-
 
 .projBodySect {
   display: flex;

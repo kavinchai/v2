@@ -13,8 +13,8 @@
   position: relative;
   padding: 10px;
   height: 80%;
-  width: 90vw;
-
+  width: 80vw;
+  transform: translateY(4%);
   display: flex;
   justify-content: center;
   align-self: center;
@@ -22,7 +22,7 @@
 }
 
 .projectHeader {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .projectBody {
@@ -51,7 +51,7 @@
 
 .projTxt2 {
   font-family: var(--heading-font);
-  font-size: var(--heading2); 
+  font-size: var(--heading2);
   text-align: right;
   color: var(--secondary-txt-color);
 }

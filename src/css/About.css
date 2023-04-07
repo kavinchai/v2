@@ -33,7 +33,7 @@
   height: auto;
   width: 40%;
   display: flex;
-  object-fit: cover; 
+  object-fit: cover;
   object-position: 60% 0%;
   border: 20px solid var(--quaternary-bg-color);
 }
@@ -68,11 +68,9 @@
 
   display: flex;
   flex-direction: column;
-  padding: 0px 20px 20px 20px;
-  /* height: 50%; */
+  padding: 0px 20px 0px 20px;
 
-  /* font-size: 23px; */
-  font-size: 125%;
+  font-size: 115%;
   font-family: var(--normal-font);
   color: var(--secondary-txt-color);
 }
@@ -150,7 +148,7 @@
 }
 
 .icon {
-  font-size:calc(15px + 1.5vw);
+  font-size: calc(15px + 1.5vw);
   color: white;
 }
 
