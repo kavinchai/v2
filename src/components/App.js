@@ -9,9 +9,10 @@ import Project from "./Project";
 const App = () => {
   return (
     <>
+    
       <Navbar/>
       <About/>
-      {/* <Tech/> */}
+      <Tech/>
       <Exp/>
       {/* <Project/> */}
     </>

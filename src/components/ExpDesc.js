@@ -22,7 +22,7 @@ const ExpDesc = ({
         </div>
       </div>
       <div className="expDescBody">
-        <ul className="expDescUnorderedList">
+      <ul className="expDescUnorderedList">
           {text?.map((key) => (
             <li key={key} className="expDescList">
               {key}

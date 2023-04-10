@@ -59,7 +59,7 @@ const About = () => {
                 href="https://github.com/kavinchai/NASA_AM_App"
                 target="_blank"
                 className="aboutLink"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 NASA Additive Manufacturing Application
               </a>
@@ -68,8 +68,8 @@ const About = () => {
                 href="https://github.com/kavinchai/pokedex_frontend"
                 target="_blank"
                 className="aboutLink"
-                rel="noreferrer"
-              >
+                rel="noopener noreferrer"              
+                >
                 front-end
               </a>{" "}
               and{" "}
@@ -77,8 +77,8 @@ const About = () => {
                 href="https://github.com/kavinchai/pokedex_backend"
                 target="_blank"
                 className="aboutLink"
-                rel="noreferrer"
-              >
+                rel="noopener noreferrer"              
+                >
                 back-end
               </a>{" "}
               pokédex, and this personal website!
@@ -89,7 +89,7 @@ const About = () => {
             <a 
               href="https://github.com/kavinchai" 
               target="_blank" 
-              rel="noreferrer"
+              rel="noopener noreferrer"              
               className="socialCircle"
             >
               <RiGithubFill className="icon" />
@@ -97,7 +97,7 @@ const About = () => {
             <a
               href="https://www.linkedin.com/in/kavinchai"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"              
               className="socialCircle"
             >
               <FiLinkedin className="icon" />
@@ -105,7 +105,7 @@ const About = () => {
             <a
               href="https://www.youtube.com/@kavinchaisawangwong5537"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"              
               className="socialCircle"
             >
               <RiYoutubeFill className="icon" />
