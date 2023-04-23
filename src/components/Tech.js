@@ -1,15 +1,21 @@
 import React from "react";
 import "../css/Tech.css";
-import BouncingBall from "./BouncingBall";
+import Orb from "./Orb";
 
-import IMAGES from "../constants";
 const Tech = () => {
   return (
     <div className="techComponent">
       <div className="techContainer">
         <div className="techTxtHeader">technologies</div>
         <div className="techTxtSubtitle">tools i've used</div>
-        <BouncingBall/>
+        <div className="space">
+          <Orb
+            initialPos={{ x: 100, y: 200 }}
+          />
+          <Orb
+            initialPos={{ x: 300, y: 200 }}
+          />
+        </div>
       </div>
     </div>
   );

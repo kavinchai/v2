@@ -1,5 +1,5 @@
 import React from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 const ballStyle = {
     display: "block:",
@@ -22,23 +22,22 @@ export default function BouncingBall() {
     return (
         <div
             style ={{
+                border: "5px solid #ffff00",
                 background:"red",
                 width: "50vw",
                 height: "40vh",
                 display: "flex",
                 justifyContent: "space-around"
             }}>
-                <AnimatePresence>
-                    <motion.span 
-                        style={ballStyle} 
-                        transition={bounceTransition} 
-                        animate = {{
-                            x: "100px",
-                            y: ["200px", "100px"],
-                        }}
-                    />
-                </AnimatePresence>
-                
+                <motion.span 
+                    style={ballStyle} 
+                    transition={bounceTransition} 
+                    animate = {{
+                        x: "100px",
+                        y: ["200px", "100px"],
+                    }}
+                />
         </div>
     )
 }
+

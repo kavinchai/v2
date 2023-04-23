@@ -1,10 +1,12 @@
 .projectComponent {
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   transition: 0.5s;
+  /* background-color: red; */
   background-color: var(--primary-bg-color);
   position: relative;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
@@ -16,8 +18,7 @@
   width: 80vw;
   transform: translateY(4%);
   display: flex;
-  justify-content: center;
-  align-self: center;
+  justify-content: start;
   flex-direction: column;
 }
 

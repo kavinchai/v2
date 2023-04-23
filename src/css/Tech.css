@@ -44,3 +44,12 @@
   font-family: var(--heading-font);
   color: var(--secondary-txt-color);
 }
+
+.space {
+  border: 5px solid #ffff00;
+  background:red;
+  width: 50vw;
+  height: 40vh;
+  display: flex;
+  justify-content: "space-around";
+}
