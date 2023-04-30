@@ -18,13 +18,13 @@
   }
   
   .expDescTitle {
-    font-size: 21px;
+    font-size: 19px;
     color: var(--secondary-txt-color);
   }
   
   .expDescCompany {
     transition: text-decoration-color 300ms;
-    font-size: 21px;
+    font-size: 19px;
     margin-left: auto;
     padding-right: 1%;
     color: var(--secondary-txt-color);
