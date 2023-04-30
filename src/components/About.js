@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../css/About.css";
-// import imag from "../imgs/kavinCropped.png";
 import imag from "../imgs/kavin.JPG";
 import { RiGithubFill } from "react-icons/ri";
 import { FiLinkedin } from "react-icons/fi";
@@ -10,19 +9,8 @@ import { MdOutlineEmail } from "react-icons/md";
 const About = () => {
   const [myName, setMyName] = useState(true);
 
-  const [showPopup, setShowPopup] = useState(false);
-
-  useEffect(() => {
-    if (showPopup) {
-      setTimeout(() => {
-        setShowPopup(false);
-      }, 1500);
-    }
-  }, [showPopup]);
-
   const handleClick = () => {
     navigator.clipboard.writeText("kavinchai00@gmail.com");
-    setShowPopup(true);
   };
   
   return (
