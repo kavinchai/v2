@@ -1,9 +1,3 @@
-@media (max-device-width: 1024px) {
-  .navBarComponent {
-    display: none;
-  }
-}
-
 .navBarComponent {
   height: 6%;
   width: 100vw;
@@ -82,4 +76,10 @@
 .navBtn:hover {
   text-decoration-color: var(--dm-secondary-txt-color);
   cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .navBarComponent {
+    display: none;
+  }
 }
