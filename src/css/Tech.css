@@ -1,3 +1,9 @@
+@media (max-width: 1024px) {
+  .techComponent {
+    display: none;
+  }
+}
+
 .techComponent {
   height: auto;
   width: 100vw;
