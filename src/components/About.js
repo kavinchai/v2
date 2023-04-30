@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../css/About.css";
-import imag from "../imgs/kavin.JPG";
+import imag from "../imgs/kavinImag.png";
 import { RiGithubFill } from "react-icons/ri";
 import { FiLinkedin } from "react-icons/fi";
 import { RiYoutubeFill } from "react-icons/ri";
