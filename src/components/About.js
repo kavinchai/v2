@@ -116,7 +116,6 @@ const About = () => {
             >
               <MdOutlineEmail className="icon" />
             </button>
-            <div className={`popup ${showPopup ? 'show' : ''}`}>Copied!</div>
             </div>
           </div>
         </div>

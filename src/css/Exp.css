@@ -85,7 +85,7 @@
 }
 
 /* For Tablet Resolution */
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .expContainer {
     /* border: 5px solid #ffff00; */
   

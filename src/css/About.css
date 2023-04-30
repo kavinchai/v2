@@ -33,28 +33,7 @@
 .socialCircle:hover {
   cursor: pointer;
   scale: 1.1;
-}
-
-.socialCircle:hover > * {
-  animation: hover-animation 4s infinite alternate linear;
-}
-
-@keyframes hover-animation {
-  0% {
-    color: #ee6055;
-  }
-  25% {
-    color: #60d394;
-  }
-  50% {
-    color: #aaf683;
-  }
-  75% {
-    color: #ffd97d;
-  }
-  100% {
-    color: #ff9b85;
-  }
+  outline-offset: 3px;
 }
 
 .highlight {
@@ -141,40 +120,10 @@
     border-radius: 400px;
     text-decoration: none;
   }
-
-  /* Edit this for 1024px */
-  .popBtn {
-    position: relative;
-  }
-  
-  .popup {
-    position: absolute;
-    z-index: 1;
-    top: calc(100% - 250px);
-    left: calc(50% - 130px);
-    padding: 8px;
-    background-color: var(--quaternary-bg-color);
-    color: #fff;
-    font-size: 14px;
-    border-radius: 4px;
-    transition: opacity 0.3s ease-in-out;
-    opacity: 0;
-    font-family: var(--heading-font);
-  }
-  
-  .popup.show {
-    opacity: 1;
-  }
-}
-
-@media (max-width: 1400px) {
-  .popup {
-    display: none;
-  }
 }
 
 /* For Tablet and Mobile Resolution */
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .aboutContainer {
     display: flex;
     flex-direction: column;

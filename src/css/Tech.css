@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-.techTxtHeader {
+.techText1 {
   /* background-color: blue; */
   width: 100%;
 
@@ -34,7 +34,7 @@
   color: var(--secondary-txt-color);
 }
 
-.techTxtSubtitle {
+.techText2 {
   /* background-color: green; */
   width: 100%;
   height: auto;
@@ -45,11 +45,13 @@
   color: var(--secondary-txt-color);
 }
 
-.space {
-  border: 5px solid #ffff00;
-  background:red;
-  width: 50vw;
-  height: 40vh;
-  display: flex;
-  justify-content: "space-around";
+.techTable {
+  /* background-color: yellow; */
+  width: 100%;
+  height: 65%;
+  margin-top: 10px;
+}
+
+.techImg {
+  width: 40%;
 }

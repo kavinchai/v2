@@ -49,7 +49,6 @@
   /* background-color: blue; */
 
   margin: 10px 20px 0px 20px;
-  /* padding: 0px 0px 5px 0px; */
   height: 17%;
   display: flex;
   position: relative;
@@ -66,7 +65,6 @@
 
 .projFooter {
   /* background-color: green; */
-  /* height: stretch; */
   z-index: 1;
   margin: 0px 20px 10px 20px;
   display: flex;

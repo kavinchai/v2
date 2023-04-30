@@ -16,9 +16,8 @@
   padding: 10px;
   height: 80%;
   width: 80vw;
-  transform: translateY(4%);
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   flex-direction: column;
 }
 
