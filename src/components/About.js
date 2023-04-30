@@ -78,7 +78,7 @@ const About = () => {
               href="https://github.com/kavinchai" 
               target="_blank" 
               rel="noopener noreferrer"              
-              className="socialCircle"
+              className="socialBlock"
             >
               <RiGithubFill className="icon" />
             </a>
@@ -86,7 +86,7 @@ const About = () => {
               href="https://www.linkedin.com/in/kavinchai"
               target="_blank"
               rel="noopener noreferrer"              
-              className="socialCircle"
+              className="socialBlock"
             >
               <FiLinkedin className="icon" />
             </a>
@@ -94,13 +94,13 @@ const About = () => {
               href="https://www.youtube.com/@kavinchaisawangwong5537"
               target="_blank"
               rel="noopener noreferrer"              
-              className="socialCircle"
+              className="socialBlock"
             >
               <RiYoutubeFill className="icon" />
             </a>
             <button
               onClick={handleClick}
-              className="socialCircle popBtn"
+              className="socialBlock popBtn"
             >
               <MdOutlineEmail className="icon" />
             </button>
