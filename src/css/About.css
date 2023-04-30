@@ -62,8 +62,8 @@
   .aboutContainer {
     display: flex;
     position: relative;
-    height: 70vh;
-    width: 70vw;
+    height: 70%;
+    width: 70%;
     min-width: 900px;
   }
   
@@ -131,8 +131,8 @@
     justify-content: center;
     align-self: center;
     position: relative;
-    height: 90vh;
-    width: 70vw;
+    height: 90%;
+    width: 70%;
   }
   
   .aboutTxtSection {
@@ -166,7 +166,6 @@
   }
   
   .socialSection {
-    /* background-color: red; */
     width: 100%;
     height: 40%;
     display: flex;
